@@ -1,0 +1,57 @@
+@import "variables";
+@import "mixins";
+
+/* --------------------------------------------------------------- 
+    Cosmetics Demo Styles
+-----------------------------------------------------------------*/
+
+.page-header.style05, .page-wrapper {
+    background-color: #F5F0ED;
+}
+
+.page-main {
+    padding-bottom: 40px;
+}
+
+.snt-hero {
+	&.style11 {
+		.title {
+			font-size: 38px;
+			line-height: 1.4;
+
+			> span {
+				background: none;
+			}
+		}
+
+		.content {
+			justify-content: center;
+		}
+
+		.title-wrapper {
+			@include media-breakpoint-up(lg) {
+				width: 480px;
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
+.snt-banner.style32 .content {
+    position: static;
+    background-color: transparent;
+}
+
+.page-footer.style09 {
+	background: url(../images/homepage/cosmetics/footer_bg.png) right bottom no-repeat;
+    background-color: #9DB5AF;
+
+    .footer-middle, .footer-bottom {
+    	background-color: transparent;
+    }
+
+    .footer-bottom {
+	    padding: 50px 0 20px;
+	    color: #000;
+	}
+}

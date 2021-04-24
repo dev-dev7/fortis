@@ -1,0 +1,246 @@
+.snt-testimonial {
+	.rating {
+		display: inline-block;
+		position: relative;
+		font-family: "Font Awesome 5 Free";
+		color: $color-theme;
+		font-size: 14px;
+
+		&:before {
+			content: '\f005' '\f005' '\f005' '\f005' '\f005';
+			letter-spacing: 5px;
+			margin-right: -2.5px;
+			padding-left: 2.5px;
+		}
+
+		.rating-result {
+			position: absolute;
+		    left: 0;
+		    top: 0;
+		    display: block;
+		    overflow: hidden;
+
+			&:before {
+				content: '\f005' '\f005' '\f005' '\f005' '\f005';
+				letter-spacing: 5px;
+				margin-right: -2.5px;
+				padding-left: 2.5px;
+				font-weight: 900;
+			}
+		}
+	}
+
+	.user {
+		display: flex;
+		align-items: center;
+
+		figure {
+			width: 60px;
+		    border-radius: 30px;
+		    overflow: hidden;
+		    margin-right: 20px;
+		}
+
+		.info {
+			h3 {
+				font-size: 18px;
+			    font-weight: 400;
+			    line-height: 1;
+			}
+
+			p {
+				font-size: 14px;
+				margin: 0;
+			}
+		}
+	}
+
+	&.style01 {
+		.content {
+			background-color: #F7FAFB;
+			padding: 60px 30px 45px;
+			position: relative;
+			z-index: 1;
+			
+			@include media-breakpoint-up(lg) {
+				margin-right: -120px;
+			}
+		}
+
+		blockquote {
+			font-size: 24px;
+		    color: #000;
+		    line-height: 1.4;
+		    margin: 0;
+		    margin-bottom: 20px;
+		    display: block;
+		    max-width: 390px;
+		}
+
+		.review-rating {
+			text-align: center;
+		    padding: 70px 30px;
+		    color: $color-heading;
+
+		    h3 {
+		    	font-size: 24px;
+			    font-weight: 400;
+			    margin-bottom: 20px;
+		    }
+
+		    .rating-star {
+		    	margin-bottom: 20px;
+		    }
+		}
+
+		.rating {
+			color: $color-heading;
+			margin-right: 5px;
+		}
+
+		.btn-container {
+			a {
+				line-height: 1;
+			}
+		}
+	}
+
+	&.style02 {
+		padding: 95px 0;
+		position: relative;
+
+		&:before {
+		    content: '';
+		    background-color: #F4F4F4;
+		    display: block;
+		    position: absolute;
+		    left: 30px;
+		    top: 0;
+		    right: 30px;
+		    bottom: 50%;
+		    z-index: -1;
+		}
+
+		.content {
+			padding-top: 30px;
+		}
+
+		blockquote {
+			font-size: 24px;
+		    color: #000;
+		    line-height: 1.4;
+		    margin: 0;
+		    margin-bottom: 20px;
+		    display: block;
+		    max-width: 390px;
+		}
+
+		.user {
+			margin-bottom: 30px;
+		}
+
+		.review-rating {
+		    padding: 70px 0;
+		    color: $color-heading;
+
+		    h3 {
+		    	font-size: 24px;
+			    font-weight: 400;
+			    margin-bottom: 20px;
+		    }
+
+		    .rating-star {
+		    	margin-bottom: 20px;
+		    }
+		}
+
+		.rating {
+			color: $color-heading;
+			margin-right: 5px;
+		}
+
+		.btn-container {
+			a {
+				line-height: 1;
+			}
+		}
+	}
+
+	&.style03 {
+		.item {
+			padding: 50px 0;
+			text-align: center;
+
+			.rating-star {
+				margin-bottom: 20px;
+			}
+
+			blockquote {
+				margin: 0;
+				font-size: 18px;
+				padding: 0 25px;
+				line-height: 1.75;
+				margin-bottom: 20px;
+				letter-spacing: 0.05em;
+				min-height: 155px;
+			}
+
+			.user {
+				text-align: center;
+				display: block;
+
+				h3 {
+					font-size: 18px;
+					font-weight: 400;
+				}
+			}
+		}
+	}
+
+	&.style04 {
+		.item {
+			max-width: 800px;
+			padding: 0 15px;
+			margin: 0 auto;
+			text-align: center;
+
+			blockquote {
+				margin: 0;
+				font-size: 21px;
+				line-height: 1.75;
+				margin-bottom: 20px;
+			}
+
+			.user {
+				text-align: center;
+				display: block;
+
+				h3 {
+					font-size: 21px;
+					font-weight: 400;
+				}
+			}
+		}
+	}
+
+	&.style05 {
+		.title {
+			font-size: 24px;
+			font-weight: 400;
+		}
+
+		.subtitle {
+			font-size: 14px;
+			font-weight: 400;
+			color: $color-base;
+			margin-bottom: 100px;
+		}
+
+		.txt {
+			font-size: 24px;
+			color: $color-heading;
+			max-width: 515px;
+			margin-bottom: 50px;
+		}
+	}
+}

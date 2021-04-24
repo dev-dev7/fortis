@@ -1,0 +1,103 @@
+/* --------------------------------------------------------------- 
+    Sneakers Demo Styles
+-----------------------------------------------------------------*/
+.container {
+  max-width: 1920px; }
+  @media (min-width: 576px) {
+    .container {
+      padding: 0 75px; } }
+
+.page-footer.style08 {
+  border-top: 0; }
+  .page-footer.style08 .footer-middle > .container {
+    position: relative; }
+    .page-footer.style08 .footer-middle > .container:before {
+      content: '';
+      display: block;
+      height: 1px;
+      border-top: 1px solid #000;
+      position: absolute;
+      top: -90px;
+      left: 15px;
+      right: 15px; }
+      @media (min-width: 576px) {
+        .page-footer.style08 .footer-middle > .container:before {
+          left: 75px;
+          right: 75px; } }
+  .page-footer.style08 .footer-middle hr.bc-base {
+    background-color: #000;
+    opacity: 1; }
+  .page-footer.style08 .footer-middle .snt-newsletter.style12 .form-control-wrapper input {
+    border-color: #000 !important; }
+  .page-footer.style08 .footer-bottom {
+    background-color: transparent; }
+
+.snt-hero.style14 .item {
+  position: relative; }
+.snt-hero.style14 .content {
+  width: 930px;
+  max-width: 84%;
+  left: 8%;
+  text-align: left;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%); }
+  .snt-hero.style14 .content .subtitle {
+    font-size: 12px;
+    font-weight: 500; }
+  .snt-hero.style14 .content .btn-container {
+    text-align: left; }
+    .snt-hero.style14 .content .btn-container > a {
+      display: inline-block;
+      margin: 0;
+      font-size: 18px;
+      line-height: 1;
+      color: #fff;
+      max-width: none; }
+      @media (max-width: 767.98px) {
+        .snt-hero.style14 .content .btn-container > a {
+          font-size: 14px; } }
+  @media (max-width: 767.98px) {
+    .snt-hero.style14 .content .title {
+      font-size: 15px; } }
+
+.snt-banner.style24 .title {
+  font-weight: 500;
+  margin-bottom: 20px; }
+.snt-banner.style24 .btn-container a {
+  font-size: 14px;
+  font-weight: 500; }
+
+.product-item.style19 .product-detail .product-categories {
+  color: #6D7E8D; }
+.product-item.style19 .product-detail .product-name {
+  font-size: 21px; }
+.product-item.style19 .product-detail .product-price {
+  font-size: 15px;
+  color: #000; }
+
+@media (min-width: 992px) {
+  .snt-tab.style01 ul.tab {
+    margin-top: -76px; } }
+.section-title.small .title {
+  display: flex;
+  align-items: center; }
+  .section-title.small .title:after {
+    content: '';
+    display: block;
+    border-top: 1px solid;
+    flex: 1;
+    margin-left: 30px; }
+    @media (min-width: 992px) {
+      .section-title.small .title:after {
+        margin-right: 260px; } }
+.section-title.small.no-tabs .title:after {
+  margin-right: 0; }
+
+@media (min-width: 1200px) {
+  .page-header .snt-menu ul.nav > li > .sub-menu {
+    min-height: 430px; } }
+
+/*# sourceMappingURL=style-sneakers.css.map */

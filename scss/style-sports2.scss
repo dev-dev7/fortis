@@ -1,0 +1,65 @@
+@import "variables";
+@import "mixins";
+
+/* --------------------------------------------------------------- 
+    Sports Clothing & Fitness Equipment Demo Styles
+-----------------------------------------------------------------*/
+
+.page-footer.style08 {
+    border-top: 0;
+}
+
+.snt-hero.style09 {
+	.content {
+		padding: 130px 80px;
+		left: 0;
+		@include transform(none);
+	}
+
+	.title {
+		font-size: 38px;
+	    line-height: 1.4;
+	    width: 480px;
+	    max-width: 100%;
+	    margin-bottom: 25px;
+	}
+
+	.btn-container {
+		padding: 0;
+	}
+}
+
+.snt-icon-box.style01 {
+    justify-content: center;
+}
+
+.snt-banner.style12 {
+	.title {
+		font-size: 21px;
+		color: #fff;
+	}
+
+	.subtitle {
+		font-size: 12px;
+		font-weight: 500;
+		letter-spacing: 1.5px;
+		color: #fff;
+	}
+}
+
+.snt-newsletter.style04 {
+	.content {
+		background-color: transparent;
+		padding-top: 100px;
+		padding-bottom: 80px;
+	}
+
+	.form-control-wrapper input {
+	    border: 0;
+	    background-color: #fff;
+
+	    &:focus {
+	    	border: 0;
+	    }
+	}
+}

@@ -1,0 +1,59 @@
+/* --------------------------------------------------------------- 
+		Bags & Backpacks Demo Styles
+-----------------------------------------------------------------*/
+.snt-section {
+  padding: 100px 0; }
+
+.snt-newsletter.style04 .content {
+  background-color: #000;
+  letter-spacing: 0.03em; }
+  .snt-newsletter.style04 .content .content-inner {
+    margin-right: auto; }
+.snt-newsletter.style04 .form-control-wrapper input {
+  background-color: #fff; }
+  .snt-newsletter.style04 .form-control-wrapper input:focus {
+    border-bottom-color: #000;
+    box-shadow: none; }
+
+@media (min-width: 992px) {
+  .snt-blog.snt-tab.style01 ul.tab {
+    margin-top: -100px;
+    margin-bottom: 100px; } }
+
+.snt-icon-box.style02 {
+  position: relative; }
+  .snt-icon-box.style02:before {
+    content: '';
+    display: block;
+    width: calc(100% - 90px);
+    border-bottom: 1px solid #000;
+    position: absolute;
+    top: 30px;
+    right: calc(50% + 60px); }
+    @media (max-width: 991.98px) {
+      .snt-icon-box.style02:before {
+        display: none; } }
+
+[class*="col-"]:first-child .snt-icon-box.style02:before {
+  display: none; }
+
+.page-footer.style01 {
+  background-color: #000;
+  color: #fff; }
+  .page-footer.style01 .widget .widget-title h5 {
+    color: #fff; }
+  .page-footer.style01 .footer-middle p {
+    font-weight: 300; }
+  .page-footer.style01 .form-control-wrapper {
+    border: 1px solid #6D7E8D;
+    padding: 0 15px; }
+    .page-footer.style01 .form-control-wrapper button {
+      color: #6D7E8D; }
+    .page-footer.style01 .form-control-wrapper input {
+      font-size: 14px; }
+  .page-footer.style01 .footer-bottom {
+    padding-bottom: 65px; }
+  .page-footer.style01 .footer-middle .snt-newsletter .form-control-wrapper input {
+    height: 50px; }
+
+/*# sourceMappingURL=style-bags.css.map */

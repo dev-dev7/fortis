@@ -1,0 +1,63 @@
+@import "variables";
+@import "mixins";
+
+/* --------------------------------------------------------------- 
+    Watch Demo Styles
+-----------------------------------------------------------------*/
+
+.snt-section {
+	padding: 100px 0;
+}
+
+.snt-hero {
+	&.style02 {
+		height: auto;
+		min-height: calc(90vh - 117px);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		text-align: center;
+
+		.title {
+			font-size: 64px;
+			margin-bottom: 10px;
+
+			@include media-breakpoint-down(sm) {
+				font-size: 48px;
+			}
+		}
+
+		.subtitle {
+			font-size: 21px;
+			margin-bottom: 30px;
+		}
+
+		.btn-container a {
+			margin-bottom: 20px;
+			font-size: 14px;
+		}
+	}
+}
+
+#slick_3, #slick_4 {
+    border: 1px solid $color-border;
+}
+
+.page-footer.style06 {
+	.footer-middle {
+		background-color: #000;
+		border: 0;
+		color: #fff;
+
+		.widget .widget-title h5 {
+			color: #fff;
+		}
+	}
+
+	.footer-bottom {
+		background-color: #111;
+		border: 0;
+		color: #fff;
+	}
+}

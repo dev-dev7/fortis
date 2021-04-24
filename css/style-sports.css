@@ -1,0 +1,23 @@
+/* --------------------------------------------------------------- 
+    Sports Demo Styles
+-----------------------------------------------------------------*/
+.page-main {
+  padding-bottom: 50px; }
+
+.snt-section {
+  padding: 60px 0; }
+
+.snt-hero.style09 .slick-list {
+  margin: 0 -15px; }
+  .snt-hero.style09 .slick-list .slick-slide {
+    padding: 0 15px; }
+@media (max-width: 767.98px) {
+  .snt-hero.style09 .content {
+    left: 0;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0); } }
+
+/*# sourceMappingURL=style-sports.css.map */

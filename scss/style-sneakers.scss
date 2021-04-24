@@ -1,0 +1,157 @@
+@import "variables";
+@import "mixins";
+
+/* --------------------------------------------------------------- 
+    Sneakers Demo Styles
+-----------------------------------------------------------------*/
+
+.container {
+	max-width: 1920px;
+
+	@include media-breakpoint-up(sm) {
+		padding: 0 75px;
+	}
+}
+
+.page-footer.style08 {
+	border-top: 0;
+	
+	.footer-middle {
+		> .container {
+			position: relative;
+
+			&:before {
+				content: '';
+				display: block;
+				height: 1px;
+				border-top: 1px solid #000;
+				position: absolute;
+				top: -90px;
+				left: 15px;
+				right: 15px;
+
+				@include media-breakpoint-up(sm) {
+					left: 75px;
+					right: 75px;
+				}
+			}
+		}
+
+		hr.bc-base {
+			background-color: #000;
+			opacity: 1;
+		}
+
+		.snt-newsletter.style12 .form-control-wrapper input {
+			border-color: #000 !important;
+		}
+	}
+
+	.footer-bottom {
+		background-color: transparent;
+	}
+}
+
+.snt-hero.style14 {
+	.item {
+		position: relative;
+	}
+
+	.content {
+		width: 930px;
+		max-width: 84%;
+		left: 8%;
+		text-align: left;
+		@include transform(translateY(-50%));
+
+		.subtitle {
+			font-size: 12px;
+			font-weight: 500;
+		}
+
+		.btn-container {
+			text-align: left;
+
+			> a {
+				display: inline-block;
+				margin: 0;
+				font-size: 18px;
+				line-height: 1;
+				color: #fff;
+				max-width: none;
+
+				@include media-breakpoint-down(sm) {
+					font-size: 14px;
+				}
+			}
+		}
+
+		.title {
+			@include media-breakpoint-down(sm) {
+				font-size: 15px;
+			}
+		}
+	}
+}
+
+.snt-banner.style24 {
+	.title {
+		font-weight: 500;
+		margin-bottom: 20px;
+	}
+
+	.btn-container a {
+		font-size: 14px;
+		font-weight: 500;
+	}
+}
+
+.product-item.style19 .product-detail {
+	.product-categories {
+		color: $color-base;
+	}
+
+	.product-name {
+		font-size: 21px;
+	}
+
+	.product-price {
+		font-size: 15px;
+		color: #000;
+	}
+}
+
+@include media-breakpoint-up(lg) {
+	.snt-tab.style01 ul.tab {
+	    margin-top: -76px;
+	}
+}
+
+.section-title.small {
+	.title {
+	    display: flex;
+	    align-items: center;
+
+	    &:after {
+		    content: '';
+		    display: block;
+		    border-top: 1px solid;
+		    flex: 1;
+		    margin-left: 30px;
+
+		    @include media-breakpoint-up(lg) {
+		    	margin-right: 260px;
+		    }
+		}
+	}
+
+	&.no-tabs .title:after {
+		margin-right: 0;
+	}
+}
+
+.page-header .snt-menu ul.nav > li > .sub-menu {
+    @include media-breakpoint-up(xl) {
+        min-height: 430px;
+    }
+}

@@ -1,0 +1,44 @@
+/* --------------------------------------------------------------- 
+    Furniture Demo Styles
+-----------------------------------------------------------------*/
+.snt-section {
+  padding: 90px 0; }
+
+.snt-banner.style12 .content {
+  z-index: unset; }
+  .snt-banner.style12 .content h3, .snt-banner.style12 .content h4 {
+    line-height: 1.5; }
+  .snt-banner.style12 .content .btn-container {
+    position: relative;
+    z-index: 5; }
+    .snt-banner.style12 .content .btn-container a:not(.button) {
+      font-size: 12px;
+      color: #000;
+      line-height: 1;
+      letter-spacing: 0.09em;
+      font-weight: 500; }
+.snt-banner.style12.large .subtitle {
+  font-size: 12px;
+  color: #6D7E8D;
+  letter-spacing: 0.09em; }
+
+.snt-testimonial.style01 .rating {
+  color: #52BF98; }
+
+.page-footer.style06 .footer-top {
+  border-bottom: 1px solid #DEE9ED;
+  border-top: 1px solid #DEE9ED;
+  background-color: #FEFAF7;
+  padding: 24px 0; }
+.page-footer.style06 .footer-middle {
+  background-color: #000;
+  border: 0;
+  color: #fff; }
+  .page-footer.style06 .footer-middle .widget .widget-title h5 {
+    color: #fff; }
+.page-footer.style06 .footer-bottom {
+  background-color: #111;
+  border: 0;
+  color: #fff; }
+
+/*# sourceMappingURL=style-furniture.css.map */

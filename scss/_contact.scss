@@ -1,0 +1,168 @@
+.snt-contact {
+	&.style01 {
+		.contact-banner {
+			width: 570px;
+			max-width: 100%;
+			padding: 135px 30px;
+
+			.title {
+				color: #fff;
+				font-size: 50.5px;
+				margin-bottom: 30px;
+				font-weight: 400;
+				max-width: 425px;
+			}
+
+			.txt {
+				color: #666;
+				font-size: 21.5px;
+				max-width: 425px;
+
+				@include media-breakpoint-down(md) {
+					color: #fff;
+				}
+			}
+		}
+
+		.contact-form {
+			max-width: 570px;
+			padding: 135px 30px;
+
+			.title {
+				font-size: 38px;
+				font-weight: 400;
+			}
+
+			label {
+				font-size: 14px;
+				text-transform: uppercase;
+				color: #000;
+				padding-left: 5px;
+			}
+
+			.contact-info {
+				label {
+					font-size: 18px;
+					display: block;
+					color: $color-base;
+					text-transform: none;
+					padding: 0;
+					margin-bottom: 10px;
+				}
+
+				a {
+					font-size: 18px;
+					color: $color-heading;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+
+	&.style02 {
+		.contact-banner {
+			width: 570px;
+			max-width: 100%;
+			padding: 135px 30px;
+
+			.title {
+				font-size: 50.5px;
+				margin-bottom: 30px;
+				font-weight: 400;
+				max-width: 425px;
+			}
+
+			.txt {
+				font-size: 21.5px;
+				max-width: 425px;
+			}
+
+			.contact-address {
+				max-width: 360px;
+
+				h6 {
+					font-size: 21.3px;
+					margin-bottom: 10px;
+				}
+
+				p {
+					font-size: 21.3px;
+					line-height: 1.75;
+				}
+			}
+		}
+
+		.contact-form {
+			max-width: 570px;
+			padding: 135px 30px;
+
+			.title {
+				font-size: 38px;
+				font-weight: 400;
+			}
+
+			label {
+				font-size: 14px;
+				text-transform: uppercase;
+				color: #000;
+				padding-left: 5px;
+			}
+
+			.contact-info {
+				label {
+					font-size: 18px;
+					display: block;
+					color: $color-base;
+					text-transform: none;
+					padding: 0;
+					margin-bottom: 10px;
+				}
+
+				a {
+					font-size: 18px;
+					color: $color-heading;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+
+	&.style03 {
+		.contact-banner {
+			
+		}
+
+		.contact-form {
+			padding: 80px 30px;
+
+			.title {
+				font-size: 38px;
+				font-weight: 400;
+			}
+
+			label {
+				font-size: 14px;
+				text-transform: uppercase;
+				color: #000;
+				padding-left: 5px;
+			}
+
+			.contact-info {
+				label {
+					font-size: 18px;
+					display: block;
+					color: $color-base;
+					text-transform: none;
+					padding: 0;
+					margin-bottom: 10px;
+				}
+
+				a {
+					font-size: 18px;
+					color: $color-heading;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+/* --------------------------------------------------------------- 
+    Jewelry Demo Styles
+-----------------------------------------------------------------*/
+.snt-section {
+  padding: 90px 0; }
+
+.section-title.medium .title {
+  font-size: 28.5px; }
+
+.snt-banner.style38 .snt-categories {
+  position: absolute;
+  left: -15px;
+  right: -15px;
+  bottom: 0;
+  transform: translateY(50%); }
+  .snt-banner.style38 .snt-categories > .title {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 15px 20px; }
+  .snt-banner.style38 .snt-categories .snt-category {
+    margin: 0 15px; }
+
+.page-footer.style01 {
+  background-color: #01071D; }
+  .page-footer.style01 .widget .widget-title h5 {
+    color: #fff; }
+  .page-footer.style01 .footer-middle p {
+    color: #fff;
+    font-weight: 300; }
+  .page-footer.style01 .footer-links {
+    color: #fff; }
+  .page-footer.style01 .footer-bottom .copyright {
+    color: #fff; }
+  .page-footer.style01 .snt-newsletter.style11 .form-control-wrapper {
+    border-bottom-color: #fff; }
+    .page-footer.style01 .snt-newsletter.style11 .form-control-wrapper input,
+    .page-footer.style01 .snt-newsletter.style11 .form-control-wrapper button {
+      color: #fff; }
+
+@media (min-width: 1200px) {
+  .page-header .snt-menu ul.nav > li > .sub-menu {
+    min-height: 430px; } }
+
+/*# sourceMappingURL=style-jewelry.css.map */

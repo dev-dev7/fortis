@@ -1,0 +1,46 @@
+@import "variables";
+@import "mixins";
+
+/* --------------------------------------------------------------- 
+    Fashion Simple Demo Styles
+-----------------------------------------------------------------*/
+
+.snt-hero.style08 {
+	.title {
+		color: #fff;
+		font-weight: 400;
+		line-height: 1.4;
+	}
+
+	.content {
+	    width: 1240px;
+	    max-width: 90%;
+	    pointer-events: none;
+	}
+
+	.btn-container a {
+		pointer-events: all;
+		font-size: 12px;
+	}
+}
+
+
+.snt-newsletter.style04 {
+	.form-control-wrapper input {
+		background-color: #fff;
+		border: 0;
+
+		&:focus {
+			border: 0;
+			box-shadow: none;
+		}
+	}
+
+	.content {
+		background-color: #1D1E28;
+	}
+}
+
+.page-footer.style08 {
+	border-top: 0;
+}

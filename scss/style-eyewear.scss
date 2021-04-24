@@ -1,0 +1,58 @@
+@import "variables";
+@import "mixins";
+
+/* --------------------------------------------------------------- 
+    Eyewear Demo Styles
+-----------------------------------------------------------------*/
+
+.snt-hero.style09 .content {
+    position: absolute;
+	left: 50%;
+}
+
+
+#slick_3 {
+	.slick-list {
+		@include media-breakpoint-up(md) {
+			overflow: visible;
+		}
+	}
+
+	.slick-prev, .slick-next {
+	    top: calc((100% - 115px) / 2);
+	}
+
+	.slick-prev {
+		left: 285px;
+
+		@include media-breakpoint-down(lg) {
+			left: 60px;
+		}
+
+		@include media-breakpoint-down(sm) {
+			left: 10px;
+		}
+	}
+
+	.slick-next {
+		right: 285px;
+
+		@include media-breakpoint-down(lg) {
+			right: 60px;
+		}
+
+		@include media-breakpoint-down(sm) {
+			right: 10px;
+		}
+	}
+}
+
+.product-item.style06 .product-detail .product-categories {
+	font-size: 12px;
+	color: #000;
+}
+
+.snt-banner.style13 .content {
+    background-color: #cdb1ad;
+	padding: 180px 45px;
+}

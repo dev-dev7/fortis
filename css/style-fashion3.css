@@ -1,0 +1,28 @@
+/* --------------------------------------------------------------- 
+    Fashion Simple Demo Styles
+-----------------------------------------------------------------*/
+.snt-hero.style08 .title {
+  color: #fff;
+  font-weight: 400;
+  line-height: 1.4; }
+.snt-hero.style08 .content {
+  width: 1240px;
+  max-width: 90%;
+  pointer-events: none; }
+.snt-hero.style08 .btn-container a {
+  pointer-events: all;
+  font-size: 12px; }
+
+.snt-newsletter.style04 .form-control-wrapper input {
+  background-color: #fff;
+  border: 0; }
+  .snt-newsletter.style04 .form-control-wrapper input:focus {
+    border: 0;
+    box-shadow: none; }
+.snt-newsletter.style04 .content {
+  background-color: #1D1E28; }
+
+.page-footer.style08 {
+  border-top: 0; }
+
+/*# sourceMappingURL=style-fashion3.css.map */

@@ -1,0 +1,91 @@
+/* --------------------------------------------------------------- 
+    Lighting Demo Styles
+-----------------------------------------------------------------*/
+.container {
+  max-width: 1920px; }
+  @media (min-width: 576px) {
+    .container {
+      padding: 0 75px; } }
+
+@media (min-width: 1200px) {
+  .page-header.style02 .snt-menu {
+    padding-left: 200px; } }
+
+.page-footer.style01 {
+  background-color: transparent; }
+  .page-footer.style01 .footer-middle p {
+    line-height: 1.3;
+    margin-bottom: 40px; }
+.page-footer .widget .widget-title h5 {
+  font-size: 12px;
+  font-weight: 500; }
+.page-footer .footer-links {
+  line-height: 2; }
+
+.snt-hero .item {
+  position: relative; }
+  .snt-hero .item .content {
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    bottom: 50px;
+    color: #fff;
+    text-align: center;
+    line-height: 1; }
+    .snt-hero .item .content h5 {
+      margin-bottom: 15px;
+      color: #fff; }
+
+@media (min-width: 768px) {
+  #slick_3 .slick-list {
+    overflow: visible; } }
+#slick_3 .slick-prev, #slick_3 .slick-next {
+  top: calc((100% - 115px) / 2); }
+#slick_3 .slick-prev {
+  left: 50%;
+  -webkit-transform: translateX(-470px);
+  -moz-transform: translateX(-470px);
+  -ms-transform: translateX(-470px);
+  -o-transform: translateX(-470px);
+  transform: translateX(-470px); }
+  @media (max-width: 991.98px) {
+    #slick_3 .slick-prev {
+      left: 60px;
+      -webkit-transform: none;
+      -moz-transform: none;
+      -ms-transform: none;
+      -o-transform: none;
+      transform: none; } }
+  @media (max-width: 767.98px) {
+    #slick_3 .slick-prev {
+      left: 10px; } }
+#slick_3 .slick-next {
+  right: 50%;
+  -webkit-transform: translateX(470px);
+  -moz-transform: translateX(470px);
+  -ms-transform: translateX(470px);
+  -o-transform: translateX(470px);
+  transform: translateX(470px); }
+  @media (max-width: 991.98px) {
+    #slick_3 .slick-next {
+      right: 60px;
+      -webkit-transform: none;
+      -moz-transform: none;
+      -ms-transform: none;
+      -o-transform: none;
+      transform: none; } }
+  @media (max-width: 767.98px) {
+    #slick_3 .slick-next {
+      right: 10px; } }
+
+.snt-post.style03 .content .post-cat {
+  font-size: 12px;
+  letter-spacing: 1.5px; }
+.snt-post.style03 .content .post-title {
+  font-size: 21px; }
+
+@media (min-width: 1200px) {
+  .page-header .snt-menu ul.nav > li > .sub-menu {
+    min-height: 430px; } }
+
+/*# sourceMappingURL=style-lighting.css.map */

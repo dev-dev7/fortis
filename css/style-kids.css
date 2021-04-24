@@ -1,0 +1,24 @@
+/* --------------------------------------------------------------- 
+    Baby & Children's Clothing Demo Styles
+-----------------------------------------------------------------*/
+.page-main {
+  padding-bottom: 40px; }
+
+.snt-hero.style11 .content {
+  justify-content: center; }
+@media (min-width: 992px) {
+  .snt-hero.style11 .title-wrapper {
+    width: 480px;
+    margin-bottom: 135px; } }
+
+.snt-section {
+  padding: 90px 0; }
+
+.snt-banner.style09 .content {
+  background-color: #9FC8C8; }
+
+@media (min-width: 1200px) {
+  .snt-instagram.style04 .content {
+    padding: 32px 0; } }
+
+/*# sourceMappingURL=style-kids.css.map */

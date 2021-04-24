@@ -1,0 +1,127 @@
+@import "variables";
+@import "mixins";
+
+/* --------------------------------------------------------------- 
+    Fullscreen Slider Demo Styles
+-----------------------------------------------------------------*/
+
+.container {
+	max-width: 1920px;
+
+	@include media-breakpoint-up(sm) {
+		padding: 0 75px;
+	}
+}
+
+.page-header.style06 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: transparent;
+}
+
+.product-item.style15 {
+	margin: 50px 0;
+
+	.product-detail {
+		.product-name {
+		    font-weight: 400;
+		    font-size: 21px;
+		}
+
+		.product-price {
+		    font-weight: 500;
+		    font-size: 15px;
+		    letter-spacing: 0.09em;
+		}
+	}
+}
+
+.snt-hero {
+	.item {
+		position: relative;
+
+		.content {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			@include transform(translate(-50%, -50%));
+
+			h2 {
+				font-size: 111px;
+				font-weight: 700;
+				position: relative;
+				margin-bottom: 30px;
+
+				&:after {
+					content: '';
+					width: 222px;
+					height: 1px;
+					border-bottom: 1px solid #000;
+					position: absolute;
+					bottom: 0;
+					left: 0;
+				}
+
+				@include media-breakpoint-down(lg) {
+					font-size: 84px;
+				}
+
+				@include media-breakpoint-down(md) {
+					font-size: 63px;
+				}
+
+				@include media-breakpoint-down(sm) {
+					font-size: 42px;
+				}
+			}
+
+			h3 {
+				font-size: 14px;
+				font-weight: 500;
+				line-height: 1;
+
+				> span {
+					border-bottom: 1px solid #000;
+					display: inline-block;
+				}
+			}
+		}
+	}
+
+	@include media-breakpoint-down(lg) {
+		.slick-dot-right-vertical .slick-dots {
+		    bottom: 20px;
+		    top: auto;
+		    left: 50%;
+		    right: auto;
+		    transform: translateX(-50%);
+
+		    li {
+		    	display: inline-block;
+		    }
+		}
+	}
+}
+
+.social-links {
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: rotate(-90deg);
+
+    a {
+    	display: inline-block;
+    	text-decoration: none;
+    	font-size: 12px;
+    	font-weight: 500;
+    	margin: 0 10px;
+    	letter-spacing: .09em;
+
+    	&:hover {
+    		color: #000;
+    	}
+    }
+}

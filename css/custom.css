@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+    .snt-post-item {
+        display: block!important;
+    }
+    .post-image {
+        max-width: 100%!important;
+    }
+    .snt-blog-list > .snt-post-item > .post-detail {
+        padding-right: 25px!important;
+    }
+}

@@ -1,0 +1,93 @@
+/* --------------------------------------------------------------- 
+    Fullscreen Slider Demo Styles
+-----------------------------------------------------------------*/
+.container {
+  max-width: 1920px; }
+  @media (min-width: 576px) {
+    .container {
+      padding: 0 75px; } }
+
+.page-header.style06 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent; }
+
+.product-item.style15 {
+  margin: 50px 0; }
+  .product-item.style15 .product-detail .product-name {
+    font-weight: 400;
+    font-size: 21px; }
+  .product-item.style15 .product-detail .product-price {
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0.09em; }
+
+.snt-hero .item {
+  position: relative; }
+  .snt-hero .item .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+    .snt-hero .item .content h2 {
+      font-size: 111px;
+      font-weight: 700;
+      position: relative;
+      margin-bottom: 30px; }
+      .snt-hero .item .content h2:after {
+        content: '';
+        width: 222px;
+        height: 1px;
+        border-bottom: 1px solid #000;
+        position: absolute;
+        bottom: 0;
+        left: 0; }
+      @media (max-width: 1199.98px) {
+        .snt-hero .item .content h2 {
+          font-size: 84px; } }
+      @media (max-width: 991.98px) {
+        .snt-hero .item .content h2 {
+          font-size: 63px; } }
+      @media (max-width: 767.98px) {
+        .snt-hero .item .content h2 {
+          font-size: 42px; } }
+    .snt-hero .item .content h3 {
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 1; }
+      .snt-hero .item .content h3 > span {
+        border-bottom: 1px solid #000;
+        display: inline-block; }
+@media (max-width: 1199.98px) {
+  .snt-hero .slick-dot-right-vertical .slick-dots {
+    bottom: 20px;
+    top: auto;
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%); }
+    .snt-hero .slick-dot-right-vertical .slick-dots li {
+      display: inline-block; } }
+
+.social-links {
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: rotate(-90deg); }
+  .social-links a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0 10px;
+    letter-spacing: .09em; }
+    .social-links a:hover {
+      color: #000; }
+
+/*# sourceMappingURL=style-fullscreen-slider.css.map */

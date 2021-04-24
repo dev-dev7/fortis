@@ -1,0 +1,168 @@
+@import "variables";
+@import "mixins";
+
+/* --------------------------------------------------------------- 
+    Parallax Demo Styles
+-----------------------------------------------------------------*/
+
+.container {
+	max-width: 1920px;
+
+	@include media-breakpoint-up(sm) {
+		padding: 0 75px;
+	}
+}
+
+.page-wrapper {
+    background-color: #FBF6F3;
+}
+
+.page-header.style06 {
+	background-color: #FBF6F3;
+}
+.snt-section {
+	padding: 120px 0;
+}
+
+.snt-hero {
+	padding: clamp(150px, 16vw, 300px) 0;
+	overflow: hidden;
+
+	.content {
+		position: relative;
+		z-index: 2;
+	}
+}
+
+
+.grid {
+	pointer-events: none;
+	position: absolute;
+	width: 110%;
+	height: 110%;
+	top: -5%;
+	left: -5%;
+	display: grid;
+	grid-template-columns: repeat(50,2%);
+	grid-template-rows: repeat(50,2%);
+}
+
+.grid__item {
+	position: relative;
+}
+
+.grid--img .grid__item {
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	will-change: transform;
+}
+
+.grid__item-img {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.grid--img .grid__item-img {
+	flex: none;
+	width: 100%;
+	height: 100%;
+	will-change: transform;
+}
+
+/* Shorthand grid-area: grid-row-start / grid-column-start / grid-row-end / grid-column-end */
+
+.pos-1 {
+	grid-area: 3 / 6 / 30 / 16;
+}
+
+.pos-2 {
+	grid-area: 6 / 39 / 22 / 47;
+}
+
+.pos-3 {
+	grid-area: 35 / 17 / 47 / 22;
+}
+
+.pos-4 {
+	grid-area: 24 / 31 / 43 / 38;
+}
+
+.lg-half-bg-right {
+	display: none;
+	
+	@include media-breakpoint-up(lg) {
+	    display: block;
+	    background: #DCC8BD;
+	    position: absolute;
+	    left: 50%;
+	    top: 0;
+	    bottom: 0;
+	    width: 50vw;
+	}
+}
+
+.banner-link {
+	color: $color-heading;
+	text-decoration: none;
+	font-size: 16px;
+
+	&:hover {
+		color: $color-heading;
+	}
+
+	> svg.feather {
+		display: inline-block;
+		vertical-align: middle;
+	}
+}
+
+.snt-banner.style11 {
+	figure > img {
+		width: auto;
+		max-width: 100%;
+	}
+}
+
+.instagram-gallery .slick-track {
+	display: flex;
+	align-items: flex-end;
+}
+
+.page-footer {
+	&.style01 {
+		background-color: transparent;
+
+		.footer-middle p {
+			line-height: 1.3;
+			margin-bottom: 40px;
+		}
+	}
+
+	.widget .widget-title h5 {
+		font-size: 12px;
+	}
+
+	.footer-links {
+		line-height: 2;
+	}
+}
+
+.product-item.style15 {
+	.product-detail {
+		.product-name {
+		    font-weight: 400;
+		    font-size: 21px;
+		}
+
+		.product-price {
+		    font-weight: 500;
+		    font-size: 15px;
+		    letter-spacing: 0.09em;
+		}
+	}
+}

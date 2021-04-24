@@ -1,0 +1,34 @@
+//***** Typography *****//
+$font-base: "Jost",
+sans-serif;
+$font-heading: "Jost",
+sans-serif;
+$font-body: $font-base;
+
+//***** Colors *****//
+$color-theme: #52bf98;
+$color-base: #6D7E8D;
+$color-heading: #000;
+$color-border: #DEE9ED;
+$color-light-1: #F4F4F4;
+
+//***** Buttons *****//
+// Button - Default
+$button-bg-color: #000;
+$button-font-color: #fff;
+$button-hover-bg-color: #fff;
+$button-hover-font-color: #000;
+
+// Button - Default Light
+$button-light-bg-color: #fff;
+$button-light-font-color: #000;
+$button-light-hover-bg-color: #000;
+$button-light-hover-font-color: #fff;
+
+//***** Layout Breakpoints *****//
+$grid-breakpoints: (xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px) !default;

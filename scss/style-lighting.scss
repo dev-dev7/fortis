@@ -1,0 +1,118 @@
+@import "variables";
+@import "mixins";
+
+/* --------------------------------------------------------------- 
+    Lighting Demo Styles
+-----------------------------------------------------------------*/
+
+.container {
+	max-width: 1920px;
+
+	@include media-breakpoint-up(sm) {
+		padding: 0 75px;
+	}
+}
+
+.page-header.style02 .snt-menu {
+	@include media-breakpoint-up(xl) {
+    	padding-left: 200px;
+    }
+}
+
+.page-footer {
+	&.style01 {
+		background-color: transparent;
+
+		.footer-middle p {
+			line-height: 1.3;
+			margin-bottom: 40px;
+		}
+	}
+
+	.widget .widget-title h5 {
+		font-size: 12px;
+		font-weight: 500;
+	}
+
+	.footer-links {
+		line-height: 2;
+	}
+}
+
+.snt-hero {
+	.item {
+		position: relative;
+
+		.content {
+			position: absolute;
+			left: 20px;
+			right: 20px;
+			bottom: 50px;
+			color: #fff;
+			text-align: center;
+			line-height: 1;
+
+			h5 {
+				margin-bottom: 15px;
+				color: #fff;
+			}
+		}
+	}
+}
+
+#slick_3 {
+	.slick-list {
+		@include media-breakpoint-up(md) {
+			overflow: visible;
+		}
+	}
+
+	.slick-prev, .slick-next {
+	    top: calc((100% - 115px) / 2);
+	}
+
+	.slick-prev {
+		left: 50%;
+		@include transform(translateX(-470px));
+
+		@include media-breakpoint-down(md) {
+			left: 60px;
+			@include transform(none);
+		}
+
+		@include media-breakpoint-down(sm) {
+			left: 10px;
+		}
+	}
+
+	.slick-next {
+		right: 50%;
+		@include transform(translateX(470px));
+
+		@include media-breakpoint-down(md) {
+			right: 60px;
+			@include transform(none);
+		}
+
+		@include media-breakpoint-down(sm) {
+			right: 10px;
+		}
+	}
+}
+
+.snt-post.style03 .content {
+	.post-cat {
+		font-size: 12px;
+		letter-spacing: 1.5px;
+	}
+
+	.post-title {
+		font-size: 21px;
+	}
+}
+
+.page-header .snt-menu ul.nav > li > .sub-menu {
+    @include media-breakpoint-up(xl) {
+        min-height: 430px;
+    }
+}

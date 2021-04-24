@@ -1,0 +1,129 @@
+.section-title {
+    position: relative;
+
+    .title {
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 1.4;
+
+        &.large {
+            font-size: 38px;
+        }
+    }
+
+    .subtitle {
+        font-size: 12px;
+        text-decoration: underline;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        letter-spacing: 1.5px;
+        color: $color-base;
+
+        &.large {
+            font-size: 18px;
+        }
+
+        &.small {
+            font-size: 12px;
+        }
+
+        &.no-underline {
+            text-decoration: none;
+        }
+    }
+
+    .title-link {
+        font-size: 18px;
+        line-height: 1;
+        color: $color-heading;
+        margin-top: 15px;
+
+        @include media-breakpoint-up(lg) {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            @include transform(translateY(-50%));
+            margin-top: 0;
+        }
+
+        &.small {
+            font-size: 12px;
+            color: $color-base;
+        }
+    }
+
+    .txt {
+        margin-top: 25px;
+        font-size: 18px;
+    }
+
+    &.small {
+        .title {
+            font-size: 24px;
+        }
+    }
+
+    &.medium {
+        .title {
+            font-size: 30px;
+        }
+
+        .subtitle {
+            font-size: 12px;
+        }
+    }
+
+    &.no-underline {
+        .subtitle {
+            text-decoration: none;
+            color: $color-base;
+        }
+    }
+
+    &.title-border {
+        border-bottom: 1px solid $color-border;
+        padding-bottom: 15px;
+    }
+
+    &.dark-color {
+        .subtitle {
+            color: $color-heading;
+        }
+    }
+
+    &.border-line {
+        position: relative;
+        padding-bottom: 24px;
+
+        &:after {
+            content: '';
+            display: block;
+            width: 120px;
+            height: 1px;
+            border-bottom: 1px solid #111;
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            @include transform(translateX(-50%));
+        }
+    }
+}
+
+.page-title {
+    &.underline-title {
+        position: relative;
+        line-height: 1.4;
+        padding-bottom: 15px;
+
+        &:after {
+            content: '';
+            display: block;
+            width: 120px;
+            height: 1px;
+            border-bottom: 1px solid;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+    }
+}

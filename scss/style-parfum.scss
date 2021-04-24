@@ -1,0 +1,48 @@
+@import "variables";
+@import "mixins";
+
+/* --------------------------------------------------------------- 
+    Parfumes Demo Styles
+-----------------------------------------------------------------*/
+
+.snt-section {
+	padding: 70px 0;
+}
+
+.snt-banner.style09 .content,.snt-newsletter.style04 .content {
+	background-color:#c09d91; 
+}
+
+.snt-newsletter.style04 .form-control-wrapper input {
+	background-color: #fff;
+	border-color: #fff;
+}
+.snt-newsletter.style04 .content .content-inner {
+	max-width: 300px;
+	margin: auto;
+}
+
+.page-footer.style06 {
+	.footer-top {
+		border-bottom: 1px solid #DEE9ED;
+		border-top: 1px solid #DEE9ED;
+		background-color: #FEFAF7;
+		padding: 24px 0;
+	}
+	
+	.footer-middle {
+		background-color: #000;
+		border: 0;
+		color: #fff;
+
+		.widget .widget-title h5 {
+			color: #fff;
+		}
+	}
+
+	.footer-bottom {
+		background-color: #111;
+		border: 0;
+		color: #fff;
+	}
+}

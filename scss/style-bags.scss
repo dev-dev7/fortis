@@ -1,0 +1,98 @@
+@import "variables";
+@import "mixins";
+
+/* --------------------------------------------------------------- 
+		Bags & Backpacks Demo Styles
+-----------------------------------------------------------------*/
+.snt-section {
+	padding: 100px 0;
+}
+
+.snt-newsletter.style04 {
+	.content {
+		background-color: #000;
+		letter-spacing: 0.03em;
+
+		.content-inner {
+			margin-right: auto;
+		}
+	}
+
+	.form-control-wrapper {
+		input {
+			background-color: #fff;
+
+			&:focus {
+				border-bottom-color: #000;
+				box-shadow: none;
+			}
+		}
+	}
+}
+
+.snt-blog.snt-tab.style01 ul.tab {
+	@include media-breakpoint-up(lg) {
+	    margin-top: -100px;
+	    margin-bottom: 100px;
+	}
+}
+
+.snt-icon-box.style02 {
+	position: relative;
+
+	&:before {
+	    content: '';
+	    display: block;
+	    width: calc(100% - 90px);
+	    border-bottom: 1px solid #000;
+	    position: absolute;
+	    top: 30px;
+	    right: calc(50% + 60px);
+
+	    @include media-breakpoint-down(md) {
+	    	display: none;
+	    }
+	}
+}
+
+[class*="col-"]:first-child .snt-icon-box.style02 {
+	&:before {
+		display: none;
+	}
+}
+
+.page-footer.style01 {
+	background-color: #000;
+	color: #fff;
+
+	.widget .widget-title h5 {
+		color: #fff;
+	}
+
+	.footer-middle {
+		p {
+			font-weight: 300;
+		}
+	}
+
+	.form-control-wrapper {
+	    border: 1px solid #6D7E8D;
+	    padding: 0 15px;
+
+	    button {
+	    	color: #6D7E8D;
+	    }
+
+	    input {
+	    	font-size: 14px;
+	    }
+	}
+
+	.footer-bottom {
+		padding-bottom: 65px;
+	}
+
+	.footer-middle .snt-newsletter .form-control-wrapper input {
+	    height: 50px;
+	}
+}

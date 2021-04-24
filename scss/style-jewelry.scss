@@ -1,0 +1,72 @@
+@import "variables";
+@import "mixins";
+
+/* --------------------------------------------------------------- 
+    Jewelry Demo Styles
+-----------------------------------------------------------------*/
+
+.snt-section {
+    padding: 90px 0;
+}
+
+.section-title.medium {
+    .title {
+        font-size: 28.5px;
+    }
+}
+
+.snt-banner.style38 {
+    .snt-categories {
+        position: absolute;
+        left: -15px;
+        right: -15px;
+        bottom: 0;
+        transform: translateY(50%);
+
+        > .title {
+            font-size: 18px;
+            font-weight: 400;
+            margin: 0 15px 20px;
+        }
+
+        .snt-category {
+            margin: 0 15px;
+        }
+    }
+}
+
+.page-footer.style01 {
+    background-color: #01071D;
+
+    .widget .widget-title h5 {
+        color: #fff;
+    }
+
+    .footer-middle p {
+        color: #fff;
+        font-weight: 300;
+    }
+
+    .footer-links {
+        color: #fff;
+    }
+
+    .footer-bottom .copyright {
+        color: #fff;
+    }
+
+    .snt-newsletter.style11 .form-control-wrapper {
+        border-bottom-color: #fff;
+
+        input,
+        button {
+            color: #fff;
+        }
+    }
+}
+
+.page-header .snt-menu ul.nav > li > .sub-menu {
+    @include media-breakpoint-up(xl) {
+        min-height: 430px;
+    }
+}

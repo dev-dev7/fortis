@@ -1,0 +1,36 @@
+/* --------------------------------------------------------------- 
+    Fashion Lookbook Demo Styles
+-----------------------------------------------------------------*/
+.page-wrapper {
+  background-color: #FFFBF5; }
+
+.page-footer.style01 {
+  background-color: transparent; }
+  .page-footer.style01 .footer-links {
+    line-height: 2.2; }
+  .page-footer.style01 .widget .widget-title h5 {
+    font-size: 12px; }
+
+.page-header.style06 {
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: #fff; }
+
+.snt-hero .item {
+  position: relative; }
+.snt-hero h2 {
+  position: absolute;
+  left: 8%;
+  bottom: 20%;
+  max-width: 84%; }
+
+.snt-image-box.style01 .subtitle {
+  font-size: 12px;
+  font-weight: 400; }
+.snt-image-box.style01 .content {
+  margin-bottom: 70px; }
+
+/*# sourceMappingURL=style-fashion2.css.map */

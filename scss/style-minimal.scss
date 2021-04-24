@@ -1,0 +1,138 @@
+@import "variables";
+@import "mixins";
+
+/* --------------------------------------------------------------- 
+    Fashion Minimal Demo Styles
+-----------------------------------------------------------------*/
+
+.container {
+	max-width: 1920px;
+
+	@include media-breakpoint-up(sm) {
+		padding: 0 75px;
+	}
+}
+
+.snt-hero {
+	.hero-title {
+		font-size: 92px;
+		color: $color-heading;
+		font-family: 'Playfair Display', serif;
+		text-align: center;
+		width: 1440px;
+		max-width: 100%;
+		margin: 230px auto 115px;
+		padding: 0 10%;
+
+		@include media-breakpoint-down(lg) {
+			font-size: 74px;
+		}
+
+		@include media-breakpoint-down(md) {
+			font-size: 62px;
+		}
+
+		@include media-breakpoint-down(sm) {
+			font-size: 48px;
+		}
+
+		@include media-breakpoint-down(xs) {
+			font-size: 36px;
+		}
+
+		> span {
+			color: #D29495;
+			font-style: italic;
+		}
+	}
+}
+
+.lg-half-bg-right {
+	display: none;
+	
+	@include media-breakpoint-up(lg) {
+	    display: block;
+	    background: #6A6161;
+	    position: absolute;
+	    left: 50%;
+	    top: 0;
+	    bottom: 0;
+	    width: 50vw;
+	}
+}
+
+.banner-link {
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+
+	&:hover {
+		color: #fff;
+	}
+
+	> svg.feather {
+		display: inline-block;
+		vertical-align: middle;
+	}
+}
+
+#slick_3 {
+	.slick-list {
+		@include media-breakpoint-up(md) {
+			overflow: visible;
+		}
+	}
+
+	.slick-prev, .slick-next {
+	    top: calc((100% - 115px) / 2);
+	}
+
+	.slick-prev {
+		left: 50%;
+		@include transform(translateX(-470px));
+
+		@include media-breakpoint-down(md) {
+			left: 60px;
+			@include transform(none);
+		}
+
+		@include media-breakpoint-down(sm) {
+			left: 10px;
+		}
+	}
+
+	.slick-next {
+		right: 50%;
+		@include transform(translateX(470px));
+
+		@include media-breakpoint-down(md) {
+			right: 60px;
+			@include transform(none);
+		}
+
+		@include media-breakpoint-down(sm) {
+			right: 10px;
+		}
+	}
+}
+
+.instagram-gallery .slick-track {
+	display: flex;
+	align-items: flex-end;
+}
+
+.page-footer.style01 {
+	background-color: transparent;
+
+	.footer-middle p {
+	    font-family: 'Playfair Display';
+	    line-height: 1.2;
+	    letter-spacing: -0.01em;
+	}
+}
+
+.page-header .snt-menu ul.nav > li > .sub-menu {
+    @include media-breakpoint-up(xl) {
+        min-height: 430px;
+    }
+}

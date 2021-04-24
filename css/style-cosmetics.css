@@ -1,0 +1,35 @@
+/* --------------------------------------------------------------- 
+    Cosmetics Demo Styles
+-----------------------------------------------------------------*/
+.page-header.style05, .page-wrapper {
+  background-color: #F5F0ED; }
+
+.page-main {
+  padding-bottom: 40px; }
+
+.snt-hero.style11 .title {
+  font-size: 38px;
+  line-height: 1.4; }
+  .snt-hero.style11 .title > span {
+    background: none; }
+.snt-hero.style11 .content {
+  justify-content: center; }
+@media (min-width: 992px) {
+  .snt-hero.style11 .title-wrapper {
+    width: 480px;
+    margin-bottom: 0; } }
+
+.snt-banner.style32 .content {
+  position: static;
+  background-color: transparent; }
+
+.page-footer.style09 {
+  background: url(../images/homepage/cosmetics/footer_bg.png) right bottom no-repeat;
+  background-color: #9DB5AF; }
+  .page-footer.style09 .footer-middle, .page-footer.style09 .footer-bottom {
+    background-color: transparent; }
+  .page-footer.style09 .footer-bottom {
+    padding: 50px 0 20px;
+    color: #000; }
+
+/*# sourceMappingURL=style-cosmetics.css.map */

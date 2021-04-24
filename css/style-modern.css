@@ -1,0 +1,50 @@
+/* --------------------------------------------------------------- 
+    Fashion Modern Demo Styles
+-----------------------------------------------------------------*/
+.container {
+  max-width: 1920px; }
+  @media (min-width: 576px) {
+    .container {
+      padding: 0 75px; } }
+
+@media (min-width: 1200px) {
+  .page-header.style02 .snt-menu {
+    padding-left: 200px; } }
+
+.page-footer.style01 {
+  background-color: transparent; }
+  .page-footer.style01 .footer-middle p {
+    line-height: 1.3;
+    margin-bottom: 40px; }
+.page-footer .widget .widget-title h5 {
+  font-size: 12px;
+  font-weight: 500; }
+.page-footer .footer-links {
+  line-height: 2; }
+
+.snt-hero .item {
+  position: relative; }
+  .snt-hero .item .content {
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    bottom: 50px;
+    color: #fff;
+    text-align: center;
+    line-height: 1; }
+    .snt-hero .item .content h5 {
+      margin-bottom: 15px;
+      color: #fff; }
+
+.snt-icon-box.style03 {
+  justify-content: center; }
+
+.instagram-gallery .slick-track {
+  display: flex;
+  align-items: flex-end; }
+
+@media (min-width: 1200px) {
+  .page-header .snt-menu ul.nav > li > .sub-menu {
+    min-height: 430px; } }
+
+/*# sourceMappingURL=style-modern.css.map */

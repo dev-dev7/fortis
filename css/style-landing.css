@@ -1,0 +1,73 @@
+/* --------------------------------------------------------------- 
+    Landing Page Styles
+-----------------------------------------------------------------*/
+.button.btn-buy {
+  background-color: #CC5050;
+  border-color: #CC5050;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500; }
+  .button.btn-buy:hover {
+    opacity: .85; }
+  .button.btn-buy svg.feather {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px; }
+
+.page-header.style01 {
+  background-color: transparent;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding-left: 80px;
+  padding-right: 80px; }
+  .page-header.style01 > .container {
+    max-width: 100%; }
+  .page-header.style01 .snt-menu {
+    flex: 1;
+    padding-left: 100px; }
+
+.snt-hero {
+  overflow: hidden; }
+  .snt-hero .content {
+    position: absolute;
+    bottom: 150px;
+    left: 70px;
+    color: #fff;
+    z-index: 3; }
+    .snt-hero .content h3, .snt-hero .content h4 {
+      color: #fff; }
+
+.snt-section {
+  padding-left: 60px;
+  padding-right: 60px; }
+
+.demos .demo-item {
+  margin-bottom: 30px; }
+  .demos .demo-item a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 10px; }
+  .demos .demo-item .content h5 {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+  .demos .demo-item figure {
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.02);
+    position: relative;
+    top: 0;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+  .demos .demo-item:hover figure {
+    top: -10px; }
+  .demos .demo-item:hover h5 {
+    color: #52bf98; }
+
+/*# sourceMappingURL=style-landing.css.map */

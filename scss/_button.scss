@@ -1,0 +1,62 @@
+button:focus {
+	outline: none;
+	background-color: $button-bg-color;
+}
+
+.button {
+	background-color: $button-bg-color;
+	color: $button-font-color;
+	border: 1px solid $button-bg-color;
+	text-decoration: none;
+	padding: 0 49px;
+	line-height: 48px;
+	height: 50px;
+	display: inline-block;
+	white-space: nowrap;
+
+	&:hover {
+		background-color: $button-hover-bg-color;
+		color: $button-hover-font-color;
+	}
+
+	&.no-border {
+		border: 0;
+		line-height: 49px;
+	}
+
+	&.light-color {
+		background-color: $button-light-bg-color;
+		color: $button-light-font-color;
+
+		&:hover {
+			background-color: $button-light-hover-bg-color;
+			color: $button-light-hover-font-color;
+		}
+	}
+
+	&.light-border {
+		border: 1px solid #fff;
+	}
+
+	&.light-black {
+		background-color: #2A2A32;
+
+		&:hover {
+			background-color: #fff;
+		}
+	}
+
+	&.transparent-color {
+		background-color: transparent;
+		color: $button-light-font-color;
+	}
+
+	> svg.feather {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	> span {
+		display: inline-block;
+	}
+}

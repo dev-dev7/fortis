@@ -1,0 +1,98 @@
+@import "variables";
+@import "mixins";
+
+/* --------------------------------------------------------------- 
+    Landing Page Styles
+-----------------------------------------------------------------*/
+
+.button.btn-buy {
+	background-color: #CC5050;
+	border-color: #CC5050;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 500;
+
+	&:hover {
+		opacity: .85;
+	}
+
+	svg.feather {
+		width: 20px;
+		height: 20px;
+		margin-right: 10px;
+	}
+}
+
+.page-header.style01 {
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding-left: 80px;
+    padding-right: 80px;
+
+    > .container {
+    	max-width: 100%;
+    }
+
+    .snt-menu {
+    	flex: 1;
+	    padding-left: 100px;
+	}
+}
+
+.snt-hero {
+	overflow: hidden;
+
+	.content {
+	    position: absolute;
+	    bottom: 150px;
+	    left: 70px;
+	    color: #fff;
+	    z-index: 3;
+
+	    h3, h4 {
+	    	color: #fff;
+	    }
+	}
+}
+
+.snt-section {
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+.demos {
+	.demo-item {
+		margin-bottom: 30px;
+		
+		a {
+			text-decoration: none;
+			text-align: center;
+			display: block;
+			padding: 10px;
+		}
+
+		.content h5 {
+			@include transition(all .3s ease);
+		}
+
+		figure {
+			box-shadow: 0 0 5px 2px rgba(0,0,0,0.02);
+			position: relative;
+			top: 0;
+			@include transition(all .3s ease);
+		}
+
+		&:hover {
+			figure {
+				top: -10px;
+			}
+
+			h5 {
+				color: $color-theme;
+			}
+		}
+	}
+}

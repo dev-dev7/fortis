@@ -1,0 +1,48 @@
+@import "variables";
+@import "mixins";
+
+/* --------------------------------------------------------------- 
+    Baby & Children's Clothing Demo Styles
+-----------------------------------------------------------------*/
+
+.page-main {
+    padding-bottom: 40px;
+}
+
+.snt-hero {
+	&.style11 {
+		.content {
+			justify-content: center;
+		}
+
+		.title-wrapper {
+			@include media-breakpoint-up(lg) {
+				width: 480px;
+				margin-bottom: 135px;
+			}
+		}
+	}
+}
+
+.snt-section {
+	padding: 90px 0;
+}
+
+
+.snt-banner {
+	&.style09 {
+		.content {
+			background-color: #9FC8C8;
+		}
+	}
+}
+
+.snt-instagram {
+	&.style04 {
+		.content {
+			@include media-breakpoint-up(xl) {
+				padding: 32px 0;
+			}
+		}
+	}
+}

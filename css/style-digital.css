@@ -1,0 +1,36 @@
+/* --------------------------------------------------------------- 
+    Digital Demo Styles
+-----------------------------------------------------------------*/
+.snt-banner.style12 .title {
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #fff; }
+.snt-banner.style12 .subtitle {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  color: #fff; }
+
+.snt-newsletter.style04 .content {
+  background-color: transparent;
+  padding-top: 100px;
+  padding-bottom: 80px; }
+.snt-newsletter.style04 .form-control-wrapper input {
+  border: 0;
+  background-color: #fff; }
+  .snt-newsletter.style04 .form-control-wrapper input:focus {
+    border: 0; }
+
+.page-footer.style08 {
+  border-top: 0; }
+
+.snt-banner.style23 .title.small {
+  font-size: 21.3px; }
+.snt-banner.style23 .btn-container a {
+  font-size: 18px; }
+
+.page-footer.style08 .footer-bottom {
+  background-color: #FEFAF7; }
+
+/*# sourceMappingURL=style-digital.css.map */

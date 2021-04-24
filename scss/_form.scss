@@ -1,0 +1,89 @@
+input:not([type]), 
+input[type=text]:not(.browser-default), 
+input[type=password]:not(.browser-default), 
+input[type=email]:not(.browser-default), 
+input[type=url]:not(.browser-default), 
+input[type=time]:not(.browser-default), 
+input[type=date]:not(.browser-default), 
+input[type=datetime]:not(.browser-default), 
+input[type=datetime-local]:not(.browser-default), 
+input[type=tel]:not(.browser-default), 
+input[type=number]:not(.browser-default), 
+input[type=search]:not(.browser-default), 
+textarea.materialize-textarea {
+	&:focus:not([readonly]) {
+		border-bottom-color: $color-theme;
+		box-shadow: 0 1px 0 0 $color-theme;
+	}
+}
+
+input:not([type]), 
+input[type=text]:not(.browser-default), 
+input[type=password]:not(.browser-default), 
+input[type=email]:not(.browser-default), 
+input[type=url]:not(.browser-default), 
+input[type=time]:not(.browser-default), 
+input[type=date]:not(.browser-default), 
+input[type=datetime]:not(.browser-default), 
+input[type=datetime-local]:not(.browser-default), 
+input[type=tel]:not(.browser-default), 
+input[type=number]:not(.browser-default), 
+input[type=search]:not(.browser-default), 
+textarea.materialize-textarea {
+	&:focus:not([readonly]) {
+		+ label {
+			color: $color-theme;
+		}
+	}
+}
+
+.form-field {
+	label {
+		font-size: 18px;
+		margin-bottom: 5px;
+		color: #1B1A21;
+	}
+}
+
+.form-control {	
+	&.form-control-lg {
+		font-size: 15px;
+		padding: 11px 15px;
+	}
+
+	&:focus {
+		box-shadow: none;
+		border-color: $color-theme;
+	}
+}
+
+textarea.form-control {
+	min-height: 170px;
+}
+
+.form-default {
+	.form-field {
+		label {
+			margin-bottom: 10px;
+			font-size: 16px;
+		}
+	}
+
+	.form-control {
+		border-radius: 0;
+		border: 1px solid $color-border;
+		padding: 10px 15px;
+		line-height: 1;
+		height: 45px;
+
+		&:focus {
+			border-color: $color-theme;
+		}
+	}
+
+	select.form-control {
+	    -webkit-appearance: auto;
+		appearance: auto;
+		padding: 10px;
+	}
+}

@@ -1,0 +1,42 @@
+/* --------------------------------------------------------------- 
+    Watch Demo Styles
+-----------------------------------------------------------------*/
+.snt-section {
+  padding: 100px 0; }
+
+.snt-hero.style02 {
+  height: auto;
+  min-height: calc(90vh - 117px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center; }
+  .snt-hero.style02 .title {
+    font-size: 64px;
+    margin-bottom: 10px; }
+    @media (max-width: 767.98px) {
+      .snt-hero.style02 .title {
+        font-size: 48px; } }
+  .snt-hero.style02 .subtitle {
+    font-size: 21px;
+    margin-bottom: 30px; }
+  .snt-hero.style02 .btn-container a {
+    margin-bottom: 20px;
+    font-size: 14px; }
+
+#slick_3, #slick_4 {
+  border: 1px solid #DEE9ED; }
+
+.page-footer.style06 .footer-middle {
+  background-color: #000;
+  border: 0;
+  color: #fff; }
+  .page-footer.style06 .footer-middle .widget .widget-title h5 {
+    color: #fff; }
+.page-footer.style06 .footer-bottom {
+  background-color: #111;
+  border: 0;
+  color: #fff; }
+
+/*# sourceMappingURL=style-watch.css.map */
